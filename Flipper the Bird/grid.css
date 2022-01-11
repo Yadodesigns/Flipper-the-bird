@@ -1,0 +1,77 @@
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.02fr 0.5fr 0.4fr 0.2fr 0.5fr 1fr 0.4fr 0.4fr 0.2fr;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "logo logo logo logo"
+    "video video video video"
+    "gallery gallery gallery gallery"
+    "park park park park"
+    "flight flight flight flight"
+    "tree tree tree tree"
+    "faq faq faq faq"
+    "social social social social"
+    ;
+}
+html{
+    background-color: #9CD8FF;
+    scroll-behavior: smooth;
+    background-image: url(images/Web\ 1920\ –\ 2.png);
+    background-size: 100%;
+}
+
+
+
+#nav{
+    grid-area:nav ;
+}
+
+#logo{
+    grid-area:logo ;
+    background-image: url(images/3_rev.png) ;
+    background-size:100%;
+    text-align: center;
+    background-repeat: no-repeat;
+
+
+}
+#video{
+    grid-area:video;
+    text-align: center;
+
+}
+#gallery{
+    grid-area:gallery;
+    text-align: center !important;
+
+
+
+}
+#park{
+    grid-area:park;
+    background-image: url(images/1_rev.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#flight{
+    grid-area:flight ;
+    text-align: center;
+
+}
+#tree{
+    grid-area:tree ;
+    text-align: center;
+
+}
+#faq{
+    grid-area:faq ;
+    
+
+}
+#social{
+    grid-area:social ;
+    text-align: center;
+
+}
